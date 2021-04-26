@@ -1,0 +1,27 @@
+.ImageSection{
+    display:flex;
+    margin-top: 4rem;
+    height: 50vh;
+
+    
+}
+.image{
+    height: 100%;
+}
+.svr-img{
+    height: 100%;
+    object-fit: cover;
+}
+.about-info{
+    width: 500px;
+    margin-top: 0;
+    margin-left: 2rem;
+
+}
+h4{
+    font-size: 2rem;
+}
+
+.about-details{
+    height: 100vh;
+}

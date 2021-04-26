@@ -1,0 +1,88 @@
+.homepage{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 80%;
+    -webkit-transform: translate(-50%,50%);
+    -moz-transform: translate(-50%,50%);
+    -ms-transform: translate(-50%,50%);
+    -o-transform: translate(-50%,50%);
+}
+.h-sub-text{
+    text-align: center;
+
+}
+
+.hero-text{
+    color: white;
+    font-size: 3.6rem;
+    text-align: center;
+
+}
+.span{
+    color: #003377;
+}
+
+p{
+    font-size: 1rem;
+
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+.icon-holder{
+   margin-right: 1rem;
+   padding: 1rem;
+  
+}
+.icon{
+    font-size: 2.5rem;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    color: #a4acc4;
+}
+
+.fb:hover{
+    color: blue;
+    transition: 1s;
+    transform: scale(1.5) rotate(360deg);
+    -webkit-transform: scale(1.5) rotate(360deg);
+    -moz-transform: scale(1.5) rotate(360deg);
+    -ms-transform: scale(1.5) rotate(360deg);
+    -o-transform: scale(1.5) rotate(360deg);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.ig:hover{
+    color: darkmagenta;
+    transition: 1s;
+    transform: scale(1.5) rotate(360deg);
+    -webkit-transform: scale(1.5) rotate(360deg);
+    -moz-transform: scale(1.5) rotate(360deg);
+    -ms-transform: scale(1.5) rotate(360deg);
+    -o-transform: scale(1.5) rotate(360deg);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.gh:hover{
+    color: purple;
+    transition: 1s;
+    transform: scale(1.5) rotate(360deg);
+    -webkit-transform: scale(1.5) rotate(360deg);
+    -moz-transform: scale(1.5) rotate(360deg);
+    -ms-transform: scale(1.5) rotate(360deg);
+    -o-transform: scale(1.5) rotate(360deg);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}

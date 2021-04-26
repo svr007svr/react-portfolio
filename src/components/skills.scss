@@ -1,0 +1,35 @@
+
+    .skill-title{
+        margin-top:2rem;
+        font-size:1rem;
+        font-weight:500;
+    }
+
+.skill-bar{
+
+        display:flex;    
+    }
+   .skill-progress1{
+       margin-top:1.5rem;
+   }
+
+            .progress1{
+                    height:.5rem;
+                    width:20rem;
+                    margin-left:1rem;
+                    background-color:#0381ff3f;
+                    position:relative;
+                    .inner-progress{
+                        position:absolute;
+                        background-color:#0c67c2;
+                        height:100%;
+                        bottom:0;
+                        left:0;
+                        
+                    }
+
+
+                   
+}
+
+

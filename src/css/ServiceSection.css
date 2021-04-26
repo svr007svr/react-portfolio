@@ -1,0 +1,75 @@
+.ServiceSection{
+  margin-top: 4rem;
+}
+.service {
+  margin-top: 3rem;
+  width: 85%;
+  
+  background-color: #191D2B;
+  border-left: 1px solid #2e344e;
+  border-right: 1px solid #2e344e;
+  border-bottom: 1px solid #2e344e;
+  border-top: 8px solid #2e344e;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+ .service:hover {
+  border-top: 8px solid #037fff;
+}
+
+ .service-content {
+ 
+  padding: 1rem;
+
+}
+
+ .s-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 1rem;
+  margin: 1rem 0;
+}
+
+ .s-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 1px;
+  background-color: 2e344e;
+}
+/*# sourceMappingURL=ServiceSection.css.map */
+
+.service-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-img{
+  height:50px;
+  width: 80px;
+}
+
+@media screen and (max-width:1440px){
+  .service-container{
+    flex-direction: column;
+    margin-bottom: 1px;
+    
+  }
+  .service{
+    width: 150%;
+    margin-left: -90px;
+    margin-bottom: 1rem;
+  }
+  /* .service-container{
+    display: flex;
+  }
+  .react-img{
+    height: 25px;
+    width: 40px;
+  } */
+  
+}
