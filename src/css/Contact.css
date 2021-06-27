@@ -17,14 +17,15 @@
 
 
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 640px) {
     .contact {
+      
         margin-top: 60px;
         margin-left: 0;
 
     }
     .form-control{
-        width: 365px;
+        width: 320px;
         padding: 10px auto;
     }
     .form-group{
@@ -33,7 +34,7 @@
     }
     form{
         margin-left: -178px;
-        width: 400px;
+        width: 350px;
         display: flex;
         flex-direction: column;
         
