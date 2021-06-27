@@ -6,8 +6,8 @@ function ServiceSection({image,title,text}) {
         <div className='serviceSection'>
             <div className='service'>
                 <div className='service-content'>
-                <img className='react-img' src={image} alt='svr' />
-                <h5 className='s-title'>{title}</h5>
+                <center><img className='react-img' src={image} alt='svr' />
+                <h5 className='s-title'>{title}</h5></center>
                 <p className='s-text'>
                     {text}
 

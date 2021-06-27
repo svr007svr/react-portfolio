@@ -3,8 +3,12 @@ import  './Navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import svr from './images/svr.jpg'
 import {NavLink} from 'react-router-dom'
+import App from '../App.js'
 
-function Navbar() {
+function Navbar(props) {
+
+    const {navToggle,setNavToggle} = props
+    
     return (
         <div className='navbar'>
         
@@ -19,16 +23,16 @@ function Navbar() {
                 <ul className='nav-items'>
 
                     <li className='nav-item'>
-                        <NavLink className='a text-white' to='/' >Home </NavLink>
+                        <NavLink className='a text-white' to='/' onClick = {() => {props.setNavToggle(!props.navToggle)}} >Home </NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink className='a text-white' to='/about' >About </NavLink>
+                        <NavLink className='a text-white' to='/about' onClick = {() => {props.setNavToggle(!props.navToggle)}} >About </NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink className='a text-white' to='/portfolio' >Portfolio </NavLink>
+                        <NavLink className='a text-white' to='/portfolio' onClick = {() => {props.setNavToggle(!props.navToggle)}} >Portfolio </NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink className='a text-white' to='/contact' >Contact </NavLink>
+                        <NavLink className='a text-white' to='/contact' onClick = {() => {props.setNavToggle(!props.navToggle)}} >Contact </NavLink>
                     </li>
 
                 </ul>

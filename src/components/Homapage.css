@@ -18,8 +18,20 @@
     color: white;
     font-size: 3.6rem;
     text-align: center;
-
 }
+
+
+@media screen and (min-width:450px){
+    .hero-text{
+        color: white;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+
+
+
+
 .span{
     color: #003377;
 }

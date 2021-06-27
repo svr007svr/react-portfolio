@@ -1,0 +1,30 @@
+body{
+    font-family: 'Acme', sans-serif;
+}
+
+//*
+Project details (D:/desktop/tour)
+*//
+ <h3 className='text-center'>React Projects</h3>
+            <div class='row mt-5'>
+                <div className='todo col-sm-5'>
+                    {/* <img src={todo} className='img-fluid' alt='project image' /> */}
+                   <center> <video width="450" autoplay='' controls>
+                        <source src={todov} type="video/mp4" />
+  
+                    </video></center>
+                </div>
+                <div className='col-sm des t'>
+                    <h3 className='text-center text-danger'>Todos App</h3>
+                    <p>
+                    ToDoList is software in the category of Task Management, Project Management, Productivity, “Getting Things Done” (GTD), Scheduling, and Collaboration. ... ToDoList is general-purpose, Windows-based software, which can be used for simple “honey do” home lists or to manage complex multi-user projects for business.
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+
+       
