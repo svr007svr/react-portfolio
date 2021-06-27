@@ -17,23 +17,23 @@
 
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 440px) {
     .contact {
         margin-top: 60px;
         margin-left: 0;
 
     }
     .form-control{
-        width: 400px;
+        width: 365px;
         padding: 10px auto;
     }
     .form-group{
-        width: auto;  
+          
         margin:5px 5px;      
     }
     form{
-        margin-left: -230px;
-        width: 70vh;
+        margin-left: -178px;
+        width: 400px;
         display: flex;
         flex-direction: column;
         
